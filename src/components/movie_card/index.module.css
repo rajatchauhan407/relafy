@@ -1,0 +1,42 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* width:400px; */
+    /* gap: 1rem; */
+}
+.poster{
+    position: relative;
+    width: 100%;
+    border-radius: 0.5rem;
+    height:300px;
+    overflow: hidden;
+}
+.poster img{
+    position: absolute;
+    top:0;
+    width: 100%; 
+}
+.inMovieCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* padding: 1rem; */
+    margin-top: 1rem;
+}
+.plot{
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap:1rem;
+}
